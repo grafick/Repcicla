@@ -20,4 +20,5 @@ Repcicla es un proyecto de desarrollo para la Universidad Andrés Bello
 ## Tech Stack
 
 **Framework:** Wordpress, Bootstrap
+
 **Server:** XAMPP
