@@ -1,0 +1,84 @@
+[24-Jul-2023 03:20:27 UTC] PHP Warning:  require_once(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
+[24-Jul-2023 03:20:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php:62
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/install.php(36): require_once()
+#1 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
+[24-Jul-2023 03:21:00 UTC] PHP Warning:  require_once(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
+[24-Jul-2023 03:21:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php:62
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/install.php(36): require_once()
+#1 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
+[24-Jul-2023 03:21:03 UTC] PHP Warning:  require_once(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
+[24-Jul-2023 03:21:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php:62
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/install.php(36): require_once()
+#1 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
+[24-Jul-2023 03:21:05 UTC] PHP Warning:  require_once(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
+[24-Jul-2023 03:21:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php:62
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/install.php(36): require_once()
+#1 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
+[24-Jul-2023 03:21:07 UTC] PHP Warning:  require_once(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
+[24-Jul-2023 03:21:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php:62
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/install.php(36): require_once()
+#1 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
+[24-Jul-2023 03:31:52 UTC] PHP Warning:  require(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:31:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php:342
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-settings.php(107): require()
+#1 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/setup-config.php(33): require('/home/s0oe7donf...')
+#2 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:31:59 UTC] PHP Warning:  require(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:31:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php:342
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-settings.php(107): require()
+#1 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/setup-config.php(33): require('/home/s0oe7donf...')
+#2 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:32:06 UTC] PHP Warning:  require(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:32:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php:342
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-settings.php(107): require()
+#1 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/setup-config.php(33): require('/home/s0oe7donf...')
+#2 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:32:19 UTC] PHP Warning:  require(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:32:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php:342
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-settings.php(107): require()
+#1 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/setup-config.php(33): require('/home/s0oe7donf...')
+#2 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:47:10 UTC] PHP Warning:  require(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:47:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php:342
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-settings.php(107): require()
+#1 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/setup-config.php(33): require('/home/s0oe7donf...')
+#2 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:47:12 UTC] PHP Warning:  require(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:47:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php:342
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-settings.php(107): require()
+#1 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/setup-config.php(33): require('/home/s0oe7donf...')
+#2 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:47:48 UTC] PHP Warning:  require(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[24-Jul-2023 03:47:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php:342
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-settings.php(107): require()
+#1 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-admin/setup-config.php(33): require('/home/s0oe7donf...')
+#2 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/compat.php on line 342
+[02-Aug-2023 04:54:31 UTC] PHP Parse error:  Unterminated comment starting line 2612 in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/src/Compat.php on line 2612
+[02-Aug-2023 04:54:55 UTC] PHP Parse error:  Unterminated comment starting line 2612 in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/src/Compat.php on line 2612
+[02-Aug-2023 04:55:41 UTC] PHP Parse error:  Unterminated comment starting line 2612 in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/src/Compat.php on line 2612
+[02-Aug-2023 06:04:21 UTC] PHP Parse error:  Unterminated comment starting line 2612 in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/src/Compat.php on line 2612
+[03-Aug-2023 02:40:46 UTC] PHP Parse error:  Unterminated comment starting line 2612 in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/sodium_compat/src/Compat.php on line 2612

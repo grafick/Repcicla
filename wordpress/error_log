@@ -1,0 +1,7 @@
+[24-Jul-2023 03:20:05 UTC] PHP Warning:  require_once(/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php): Failed to open stream: No such file or directory in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
+[24-Jul-2023 03:20:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/s0oe7donflqj/public_html/unab_REPcicla/wp-includes/load.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php:62
+Stack trace:
+#0 /home/s0oe7donflqj/public_html/unab_REPcicla/wp-blog-header.php(13): require_once()
+#1 /home/s0oe7donflqj/public_html/unab_REPcicla/index.php(17): require('/home/s0oe7donf...')
+#2 {main}
+  thrown in /home/s0oe7donflqj/public_html/unab_REPcicla/wp-load.php on line 62
