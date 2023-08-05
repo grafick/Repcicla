@@ -20,5 +20,4 @@
 ## Tech Stack
 
 **Framework:** Wordpress, Bootstrap
-
 **Server:** XAMPP
