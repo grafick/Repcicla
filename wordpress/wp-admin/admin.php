@@ -418,6 +418,3 @@ if ( ! empty( $_REQUEST['action'] ) ) {
 	 */
 	do_action( "admin_action_{$action}" );
 }
-
-
-/* ADMIN CONFIG */
