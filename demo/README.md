@@ -45,7 +45,6 @@ Let us know your thoughts below. And good luck with development!
 * [Useful Links](#useful-links)
 
 
-
 ## Versions
 
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-pro)[<img src="https://s3.amazonaws.com/creativetim_bucket/github/react.svg" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-pro-react)[<img src="https://s3.amazonaws.com/creativetim_bucket/github/vuejs.png" width="60" height="60" />](https://www.creative-tim.com/product/vue-material-dashboard-pro)[<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/material-dashboard-pro-angular2)
@@ -68,10 +67,6 @@ Let us know your thoughts below. And good luck with development!
 
 [View More](https://creativetimofficial.github.io/material-dashboard-pro/examples/dashboard.html).
 
-
-## Quick start
-
-- Buy from [Creative Tim](https://www.creative-tim.com/product/material-dashboard-pro)
 
 
 ## Documentation
@@ -160,9 +155,7 @@ If you have questions or need help integrating the product please [contact us](h
 ## Licensing
 
 - Copyright 2018 Creative Tim (https://www.creative-tim.com/)
-
 - Creative Tim [license](https://www.creative-tim.com/license)
-
 
 
 ## Useful Links
@@ -171,16 +164,3 @@ If you have questions or need help integrating the product please [contact us](h
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
 - [Freebies](https://www.creative-tim.com/bootstrap-themes/free) from Creative Tim
 - [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
-
-##### Social Media
-
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://www.instagram.com/CreativeTimOfficial>
-
