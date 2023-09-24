@@ -1,0 +1,547 @@
+<!--
+=========================================================
+Material Dashboard PRO - v2.1.2
+=========================================================
+
+Product Page: https://www.creative-tim.com/product/material-dashboard-pro
+Copyright 2020 Creative Tim (https://www.creative-tim.com)
+Coded by Creative Tim
+
+=========================================================
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    REPcicla - Dashboard Reciclador
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="../assets/css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <!-- Incluir secciones -->
+   
+</head>
+
+<body class="">
+  
+  <div class="wrapper ">
+    <div class="main-panel">
+      <div data-include="side-bar-reciclador"></div>
+      <div data-include="nav-bar-reciclador"></div>
+        <div class="content">
+              <div class="row">
+                <div class="col-md-2 ml-auto md-auto">
+                  <div class="card card-stats">
+                <div class="card-header card-header-success card-header-icon">
+                  <div class="card-icon">
+                    <i class="material-icons">liquor</i><p></br></p>Botella
+                  </div>
+                  <p class="card-category">Items<br>Reciclados</p>
+                  <h3 class="card-title">198</h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">date_range</i> Últimas 24 Horas
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 ml-auto md-auto">
+              <div class="card card-stats">
+                <div class="card-header card-header-warning card-header-icon">
+                  <div class="card-icon">
+                    <i class="material-icons">compost</i><p></br></p>Corcho
+                  </div>
+                  <p class="card-category">Items<br>Reciclados</p>
+                  <h3 class="card-title">987</h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">date_range</i> Últimas 24 Horas
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 ml-auto md-auto">
+              <div class="card card-stats">
+                <div class="card-header card-header-icon card-header-icon">
+                  <div class="card-icon">
+                    <i class="material-icons">recycling</i><p>5</p>Tapa
+                  </div>
+                  <p class="card-category">Items<br>Reciclados</p>
+                  <h3 class="card-title">1300</h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">date_range</i> Últimas 24 Horas
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 ml-auto md-auto">
+              <div class="card card-stats">
+                <div class="card-header card-header-info card-header-icon">
+                  <div class="card-icon">
+                    <i class="material-icons">recycling</i><p>7</p>Bolsa
+                  </div>
+                  <p class="card-category">Items<br>Reciclados</p>
+                  <h3 class="card-title">5000</h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">date_range</i> Últimas 24 Horas
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 ml-auto md-auto">
+              <div class="card card-stats">
+                <div class="card-header card-header-rose card-header-icon">
+                  <div class="card-icon">
+                    <i class="material-icons">oil_barrel</i><p></br></p>Lata
+                  </div>
+                  <p class="card-category">Items<br>Reciclados</p>
+                  <h3 class="card-title">894</h3>
+                </div>
+                <div class="card-footer">
+                  <div class="stats">
+                    <i class="material-icons">date_range</i> Últimas 24 Horas
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header text-center">
+            <h3 class="title">Resumen de actividades</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-chart">
+                <div class="card-header card-header-rose">
+                  <div id="roundedLineChart" class="ct-chart"></div>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Solicitudes</h4>
+                  <p class="card-category">Última semana</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-chart">
+                <div class="card-header card-header-warning">
+                  <div id="straightLinesChart" class="ct-chart"></div>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Huella de Carbono</h4>
+                  <p class="card-category">Impacto de la ciudadanía y su huella de carbono</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-chart">
+                <div class="card-header card-header-info">
+                  <div id="simpleBarChart" class="ct-chart"></div>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title ">Reciclaje Anual</h4>
+                  <p class="card-category">Toneladas de variados elementos</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header card-header-icon card-header-info">
+                  <div class="card-icon">
+                    <i class="material-icons">timeline</i>
+                  </div>
+                  <h4 class="card-title">Contactos con ciudadanos
+                    <small> - Últimos años</small>
+                  </h4>
+                </div>
+                <div class="card-body">
+                  <div id="colouredRoundedLineChart" class="ct-chart"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header card-header-icon card-header-rose">
+                  <div class="card-icon">
+                    <i class="material-icons">insert_chart</i>
+                  </div>
+                  <h4 class="card-title">Aporte Anual de Ciudadanos vs Recicladores
+                    <small>- en desarrollo</small>
+                  </h4>
+                </div>
+                <div class="card-body">
+                  <div id="multipleBarsChart" class="ct-chart"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <div class="card">
+                <div class="card-header card-header-icon card-header-info">
+                  <div class="card-icon">
+                    <i class="material-icons">timeline</i>
+                  </div>
+                  <h4 class="card-title">Tendencia de elementos más reciclados
+                    <small> - últimos años</small>
+                  </h4>
+                </div>
+                <div class="card-body">
+                  <div id="colouredBarsChart" class="ct-chart"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="card card-chart">
+                <div class="card-header card-header-icon card-header-danger">
+                  <div class="card-icon">
+                    <i class="material-icons">pie_chart</i>
+                  </div>
+                  <h4 class="card-title">Mayor cantidad de elementos reciclados</h4>
+                </div>
+                <div class="card-body">
+                  <div id="chartPreferences" class="ct-chart"></div>
+                </div>
+                <div class="card-footer">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h6 class="card-category">Leyenda</h6>
+                    </div>
+                    <div class="col-md-12">
+                      <i class="fa fa-circle text-info"></i> Botella
+                      <i class="fa fa-circle text-warning"></i> Corcho
+                      <i class="fa fa-circle text-danger"></i> Tapa
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+
+        <!-- Classic Modal -->
+        <div class="modal fade" id="myModalRoute" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Genera tu ruta para reciclar</h3>
+               
+              </div>
+              <div class="modal-body">
+
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="card ">
+                        <div class="card-header card-header-text card-header-rose">
+                          <div class="card-text">
+                            <h4 class="card-title">Mapa Satelital</h4>
+                          </div>
+                        </div>
+                        <div class="card-body ">
+                          <h4 class="card-title"></h4>
+                          <img src="../assets/img/images.jpeg" alt="Girl in a jacket" width="100%" height="100%">                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Crear</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  End Modal -->
+        <!-- Classic Modal -->
+        <div class="modal fade" id="myModalHistory" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content md-auto ml-auto">
+              <div class="modal-header">
+                <h3 class="modal-title">                      <i class="material-icons">assignment</i>
+                  Historial Reciclaje </h3>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                  <i class="material-icons">clear</i>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="toolbar">
+                      <!--        Here you can write extra buttons/actions for the toolbar              -->
+                    </div>
+                    <div class="material-datatables">
+                      <table id="datatables" class="table" cellspacing="10" width="100%" style="width:100%">
+                        <thead>
+                          <tr>
+                            <th>Fecha</th>
+                            <th>Huella de Carbono</th>
+                            <th>Tipo Reciclaje</th>
+                          </tr>
+                        </thead>
+                        
+                        <tbody>
+                          <tr>
+                            <td>2011/04/25</td>                          
+                            <td> 8,9Kg<i class="material-icons">co2 </i></td>
+                            <td>                              
+                              <i class="material-icons">liquor compost recycling </i>5
+                            </td>
+                      
+                          </tr>
+                          <tr>
+                            <td>2023/09/24</td>                          
+                            <td> 13,3Kg<i class="material-icons">co2 </i></td>
+                            <td>                              
+                              <i class="material-icons">liquor compost oil_barrel recycling</i>5 
+  
+                            </td>
+
+                          </tr>
+                          <tr>
+                            <td>2023/09/22</td>                          
+                            <td> 43,1Kg<i class="material-icons">co2 </i></td>
+                            <td>                              
+                              <i class="material-icons">  oil_barrel recycling</i>5 <i class="material-icons">recycling </i>7
+  
+                            </td>
+                            
+
+                          </tr>
+                          <tr>
+                            <td>2023/09/01</td>                          
+                            <td> 6,3Kg<i class="material-icons">co2 </i></td>
+                            <td>                              
+                              <i class="material-icons">liquor recycling</i>5 <i class="material-icons">recycling </i>7
+  
+                            </td>
+     
+                          </tr>
+                          <tr>
+                            <td>2023/08/30</td>                          
+                            <td> 2,1Kg<i class="material-icons">co2 </i></td>
+                            <td>                              
+                              <i class="material-icons">liquor compost oil_barrel</i> <i class="material-icons">recycling </i>7
+  
+                            </td>
+                      
+                          </tr>
+                         
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <!-- end content-->
+                </div>
+                <!--  end card  --> 
+              </div> 
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Salir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  End Modal -->
+        <!-- Modal Conectar -->
+        <!-- Classic Modal -->
+        <div class="modal fade" id="myModalConnect" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content md-auto ml-auto">
+              <div class="modal-header">
+                <h3 class="modal-title">                      <i class="material-icons">person</i>
+                  Conectar con Recicladores y Gestores </h3>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                  <i class="material-icons">clear</i>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="toolbar">
+                      <!--        Here you can write extra buttons/actions for the toolbar              -->
+                    </div>
+                      <div class="col-md-12">
+                        <div class="card card-profile">
+                          <div class="card-avatar">
+                            <a href="#pablo">
+                              <img class="img" src="../assets/img/faces/marc.jpg" />
+                            </a>
+                          </div>
+                          <div class="card-body">
+                            <h6 class="card-category text-gray">CEO / Co-Founder</h6>
+                            <h4 class="card-title">Alec Thompson</h4>
+                            <p class="card-description">
+                              Necesito reciclar más cosas, me ayudas?
+                            </p>
+                            <a href="#pablo" class="btn btn-rose btn-round">Conectar</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!-- end content-->
+                </div>
+                <!--  end card  --> 
+              </div> 
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Salir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Fin Modal Conectar -->
+
+
+      <footer class="footer">
+        <div class="container-fluid">
+          <div class="copyright float-right">
+            &copy;
+            <script>
+              document.write(new Date().getFullYear())
+            </script>, made with <i class="material-icons">favorite</i> by
+            <a href="https://www.creative-tim.com/" target="_blank">Claudio Sepúlveda</a> for a better <i class="material-icons"></i>.
+          </div>
+      </footer>
+    </div>
+  </div>
+  
+  </div>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/jquery.min.js"></script>
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap-material-design.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!-- Plugin for the momentJs  -->
+  <script src="../assets/js/plugins/moment.min.js"></script>
+  <!--  Plugin for Sweet Alert -->
+  <script src="../assets/js/plugins/sweetalert2.js"></script>
+  <!-- Forms Validations Plugin -->
+  <script src="../assets/js/plugins/jquery.validate.min.js"></script>
+  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+  <script src="../assets/js/plugins/jquery.bootstrap-wizard.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="../assets/js/plugins/bootstrap-selectpicker.js"></script>
+  <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+  <script src="../assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+  <!--  DataTables.net Plugin, full documentation here: https://datatables.net/  -->
+  <script src="../assets/js/plugins/jquery.dataTables.min.js"></script>
+  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+  <script src="../assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="../assets/js/plugins/jasny-bootstrap.min.js"></script>
+  <!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
+  <script src="../assets/js/plugins/fullcalendar.min.js"></script>
+  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
+  <script src="../assets/js/plugins/jquery-jvectormap.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="../assets/js/plugins/nouislider.min.js"></script>
+  <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+  <!-- Library for adding dinamically elements -->
+  <script src="../assets/js/plugins/arrive.min.js"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AQUI_LA_API"></script>
+  <!-- Chartist JS -->
+  <script src="../assets/js/plugins/chartist.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/material-dashboard.js?v=2.1.2" type="text/javascript"></script>
+  <!-- Material Dashboard DEMO methods, don't include it in your project! -->
+  <script src="../assets/demo/demo.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#datatables').DataTable({
+        "pagingType": "full_numbers",
+        "lengthMenu": [
+          [10, 25, 50, -1],
+          [10, 25, 50, "All"]
+        ],
+        responsive: true,
+        language: {
+          search: "_INPUT_",
+          searchPlaceholder: "Search records",
+        }
+      });
+
+      var table = $('#datatable').DataTable();
+
+      // Edit record
+      table.on('click', '.edit', function() {
+        $tr = $(this).closest('tr');
+        var data = table.row($tr).data();
+        alert('You press on Row: ' + data[0] + ' ' + data[1] + ' ' + data[2] + '\'s row.');
+      });
+
+      // Delete a record
+      table.on('click', '.remove', function(e) {
+        $tr = $(this).closest('tr');
+        table.row($tr).remove().draw();
+        e.preventDefault();
+      });
+
+      //Like record
+      table.on('click', '.like', function() {
+        alert('You clicked on Like button');
+      });
+    });
+  </script>
+    <script> 
+      $(function () {
+    var includes = $('[data-include]')
+    $.each(includes, function () {
+      var file = ''+ $(this).data('include') + '.html'
+      $(this).load(file)
+    })
+  })
+</script>
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      md.initDashboardPageCharts();
+
+      md.initVectorMap();
+
+    });
+  </script>
+   <script>
+    $(document).ready(function() {
+      //init DateTimePickers
+      md.initFormExtendedDatetimepickers();
+    });
+  </script>
+  <!-- script para incluir html-->
+  <script> 
+        $(function () {
+      var includes = $('[data-include]')
+      $.each(includes, function () {
+        var file = ''+ $(this).data('include') + '.html'
+        $(this).load(file)
+      })
+    })
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/assets-for-demo/js/demo.js
+      demo.initCharts();
+    });
+  </script>
+</body>
+
+</html>
