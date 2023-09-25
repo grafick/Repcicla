@@ -7,23 +7,28 @@
 
 ¡Bienvenido al dashboard de nuestra innovadora plataforma de reciclaje! Este proyecto nace de la necesidad de conectar a los ciudadanos urbanos de Chile con recicladores de base, optimizando el proceso de recolección y contribuyendo a un medio ambiente más sostenible. Aquí, podrás monitorear la actividad de los usuarios, el progreso de asociación con recicladores y evaluar la eficacia de nuestros sistemas a través de KPIs clave. Nuestra visión es impulsar una cultura de reciclaje más eficiente, y con tu participación, estamos un paso más cerca de lograrlo.
 
-
-#### Agradecimientos especiales
-Me gustaría agradecer enormemente a la guía espiritual e iluminación tecnológica durante el desarrollo de este proyecto.
-- [Barbarita Lara](https://barbaritalara.com/) por su humanidad y constante apoyo.
-
-
-Let us know your thoughts below. And good luck with development!
-
-
-## Contenidos
-
-
 # REPcicla
 [Repcicla](https://github.com/grafick/Repcicla) es un proyecto de desarrollo para la Universidad Andrés Bello
 
 ## Autor / Reporte de Incidencias / Feedback
 - [@tioclaudio](https://github.com/grafick/) Claudio Sepulveda Geoffroy.
+
+### Agradecimientos especiales
+Me gustaría agradecer enormemente a la guía espiritual e iluminación tecnológica durante el desarrollo de este proyecto.
+- [Barbarita Lara](https://barbaritalara.com/) por su humanidad y constante apoyo.
+
+
+
+# Demo
+
+1. Landing Page http://cigoto.cl/unab_REPcicla/
+2. Registro pages/register.html 
+3. pages/login.html
+4. pages/pricing.html
+5. [Dashboard Ciudadano](http://cigoto.cl/unab_REPcicla/demo/examples/dashboard-ciudadano.html)
+[REPcicla Dashboard](http://cigoto.cl/unab_REPcicla/demo/examples/dashboard.html)
+
+
 
 
 ## Documentación
@@ -48,10 +53,8 @@ Let us know your thoughts below. And good luck with development!
 - Interfaces de Usuario e Interacción [Link Adobe XD](https://xd.adobe.com/view/e02f8761-3398-4110-9623-375fa86a438b-b57c/)
 
 
-## Tech Stack
-
-**Framework:** Wordpress, Bootstrap
-**Server:** XAMPP
+## Framework
+**Framework:** Wordpress, Bootstrap **Server:** XAMPP **GitHub** 
 
 
 ## Versions
@@ -61,27 +64,6 @@ Let us know your thoughts below. And good luck with development!
 | HTML | React | Vue | Angular  |
 | --- | --- | --- | ---  |
 | [![Material Dashboard PRO  HTML](https://s3.amazonaws.com/creativetim_bucket/products/51/original/opt_mdp_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-pro)  | [![Material Dashboard PRO  React](https://s3.amazonaws.com/creativetim_bucket/products/80/original/opt_mdp_react_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-pro-react)  | [![Vue Material Dashboard PRO](https://s3.amazonaws.com/creativetim_bucket/products/87/original/opt_mdp_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-material-dashboard-pro)  | [![Material Dashboard PRO  Angular](https://s3.amazonaws.com/creativetim_bucket/products/55/original/opt_mdp_angular_thumbnail.jpg)](https://www.creative-tim.com/product/material-dashboard-pro-angular2) 
-
-
-
-## Demo
-
-1. Landing Page http://cigoto.cl/unab_REPcicla/
-2. Registro pages/register.html 
-3. pages/login.html
-4. pages/pricing.html
-
-5. # [Dashboard Ciudadano](http://cigoto.cl/unab_REPcicla/demo/examples/dashboard-ciudadano.html)
-
-
-- [Start page](https://creativetimofficial.github.io/material-dashboard-pro/examples/dashboard.html)
-- [User profile page](https://demos.creative-tim.com/material-dashboard-pro/examples/pages/user.html)
-- [Tables page ](https://demos.creative-tim.com/material-dashboard-pro/examples/tables/extended.html)
-- [Maps Page](https://demos.creative-tim.com/material-dashboard-pro/examples/maps/google.html)
-- [Notifications page](https://demos.creative-tim.com/material-dashboard-pro/examples/components/notifications.html)
-
-# [REPcicla Dashboard](http://cigoto.cl/unab_REPcicla/demo/examples/dashboard.html)
-[View More](https://creativetimofficial.github.io/material-dashboard-pro/examples/dashboard.html).
 
 
 
@@ -132,7 +114,7 @@ material-dashboard-pro/
 ```
 
 
-## Browser Support
+## Compatibilidad
 
 At present, we officially aim to support the last two versions of the following browsers:
 
