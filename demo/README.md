@@ -18,10 +18,15 @@ Me gustaría agradecer enormemente a la guía espiritual e iluminación tecnoló
 #
 # Demo
 
-1. Landing Page http://cigoto.cl/unab_REPcicla/
-2. Registro pages/register.html 
-3. pages/login.html
-4. pages/pricing.html
+0. Landing Page http://cigoto.cl/unab_REPcicla/
+1. Administrador de la Plataforma: http://cigoto.cl/unab_REPcicla/wp-login.php
+2. Registro http://cigoto.cl/unab_REPcicla/demo/examples/forms/wizard.html
+3. Identificarse / Login http://cigoto.cl/unab_REPcicla/demo/examples/pages/login.html
+4. Ingresar: http://cigoto.cl/unab_REPcicla/demo/examples/pages/pricing.html
+5. Ciudadano: http://cigoto.cl/unab_REPcicla/demo/examples/dashboard-ciudadano.html
+6. Reciclador: http://cigoto.cl/unab_REPcicla/demo/examples/dashboard-reciclador.html
+7. Gestor: http://cigoto.cl/unab_REPcicla/demo/examples/dashboard-gestor.html 
+
 5. [Dashboard Ciudadano](http://cigoto.cl/unab_REPcicla/demo/examples/dashboard-ciudadano.html)
 [REPcicla Dashboard](http://cigoto.cl/unab_REPcicla/demo/examples/dashboard.html)
 
