@@ -1,8 +1,38 @@
 -- Consultamos la tabla
 SELECT * FROM reciclaje_bd.pedido;
 
+-- Creamos tabla
+CREATE TABLE pedido(
+  id_pedido int,
+  id_cliente varchar(250),
+  tipo_categoria varchar(250),
+  area_cobertura varchar(250),
+  fecha_creacion datetime,
+  a_nombre varchar(250),
+  a_direccion varchar(250),
+  a_numero_calle int,
+  a_calle varchar(250),
+  a_comuna varchar(250),
+  a_ciudad varchar(250),
+  estado_pedido varchar(250),
+  fecha_retiro varchar(250),
+  PRIMARY KEY (id_pedido)
+);
+
 -- Establecemos que el ID_pedido sea auto incremental en la medida que se ingresen datos a la tabla, particularmente para el ID
 ALTER TABLE pedido MODIFY COLUMN id_pedido int auto_increment; 
+
+-- Creamos tabla
+CREATE TABLE agenda_delivery (
+  area_cobertura varchar(250),
+  d_a_comuna varchar(250),
+  d_a_ciudad varchar(250),
+  id_recolector int,
+  id_pedido int,
+  d_fecha datetime,
+  PRIMARY KEY (area_cobertura),
+  FOREIGN KEY (id_recolector) REFERENCES usuario_recolector (id_recolector)
+);
 
 -- Ingresamos datos de un pedido y datos con formato DATETIME YYYY-MM-DD HH:MM:SS
 INSERT INTO pedido(id_cliente, tipo_categoria, area_cobertura, fecha_creacion) VALUES ('1', 'Vidrios', 'Ñuñoa', '2023-09-15 15:45:30');

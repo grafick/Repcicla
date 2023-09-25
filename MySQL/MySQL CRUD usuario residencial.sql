@@ -1,8 +1,22 @@
--- Consultamos la tabla
-SELECT * FROM reciclaje_bd.usuario_residencial;
+-- Creamos tabla
+CREATE TABLE usuario_residencial(
+  id_cliente int,
+  nombre_completo varchar(250),
+  correo varchar(250),
+  celular int,
+  direccion varchar(250),
+  nombre_calle varchar(250),
+  comuna varchar(250),
+  ciudad varchar(250),
+  PRIMARY KEY (id_cliente)
+);
 
 -- Establecemos que el ID_Cliente sea auto incremental en la medida que se ingresen datos a la tabla, particularmente para el ID
 ALTER TABLE usuario_residencial MODIFY COLUMN id_cliente int auto_increment; 
+
+-- Consultamos la tabla
+SELECT * FROM reciclaje_bd.usuario_residencial;
+
 
 -- Ingresamos un usuario a la tabla de datos de usuario residencial
 INSERT INTO usuario_residencial(nombre_completo, correo, celular, direccion, nombre_calle, comuna, ciudad) VALUES ('Claudio Sepulveda', 'claudio@cigoto.cl', '91518518', '22', 'Pedro de Valdivia', 'Ñuñoa', 'Santiago');
