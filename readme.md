@@ -1,11 +1,13 @@
 
 # REPcicla
 
-[Repcicla](https://github.com/grafick/Repcicla) es un proyecto de desarrollo para la Universidad Andrés Bello
+[Repcicla](https://github.com/grafick/Repcicla) es un proyecto de desarrollo para la Universidad Andrés Bello con fines netamente Académicos.
 
-## Autor
 
-- [@tioclaudio](https://github.com/grafick/) Claudio Sepulveda Geoffroy.
+
+#### Autor / Reporte de Incidencias / Feedback
+- Claudio Sepulveda Geoffroy [@tioclaudio](https://github.com/grafick/) / [Linkedin](https://www.linkedin.com/in/tioclaudio/) / [Web](http://www.cigoto.cl)
+
 
 
 ## Documentación
