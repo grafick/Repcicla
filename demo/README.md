@@ -15,7 +15,7 @@
 
 
 ### Agradecimientos especiales
-Me gustaría agradecer enormemente a la guía espiritual e iluminación tecnológica durante el desarrollo de este proyecto a[Barbarita Lara](https://barbaritalara.com/) por su humanidad y constante apoyo <3
+Me gustaría agradecer enormemente a la guía espiritual e iluminación tecnológica durante el desarrollo de este proyecto a [Barbarita Lara](https://barbaritalara.com/) por su humanidad y constante apoyo <3
 
 
 # Demo
