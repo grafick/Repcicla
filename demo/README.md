@@ -11,12 +11,11 @@
 [Repcicla](https://github.com/grafick/Repcicla) es un proyecto de desarrollo para la Universidad Andrés Bello
 
 ## Autor / Reporte de Incidencias / Feedback
-- [@tioclaudio](https://github.com/grafick/) Claudio Sepulveda Geoffroy.
+- Claudio Sepulveda Geoffroy [@tioclaudio](https://github.com/grafick/) / [Linkedin](https://www.linkedin.com/in/tioclaudio/) / [Web](https://www.cigoto.cl)
+
 
 ### Agradecimientos especiales
-Me gustaría agradecer enormemente a la guía espiritual e iluminación tecnológica durante el desarrollo de este proyecto.
-- [Barbarita Lara](https://barbaritalara.com/) por su humanidad y constante apoyo.
-
+Me gustaría agradecer enormemente a la guía espiritual e iluminación tecnológica durante el desarrollo de este proyecto a[Barbarita Lara](https://barbaritalara.com/) por su humanidad y constante apoyo <3
 
 
 # Demo
